@@ -6,3 +6,7 @@ body {
 #footer {
     background-color: lightsalmon;
 }
+
+#row-incons {
+    justify-content: center !important;
+}
