@@ -2,7 +2,18 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-
 #footer {
-    background-color: lightsalmon;
+    background-color: #f5f5f5;
+}
+.logo-navbar {
+    width: 75px;
+}
+.logo-footer {
+    width: 70px;
+}
+.logo-footercel {
+    width: 45px;
+}
+.incon-instagram {
+    width: 45px;
 }
