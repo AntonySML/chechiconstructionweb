@@ -4,9 +4,18 @@ body {
 }
 
 #footer {
-    background-color: lightsalmon;
+    background-color: #f5f5f5;
 }
 
-#row-incons {
-    justify-content: center !important;
+.logo-navbar {
+    width: 75px;
+}
+.logo-footer {
+    width: 70px;
+}
+.logo-footercel {
+    width: 45px;
+}
+.incon-instagram {
+    width: 45px;
 }
