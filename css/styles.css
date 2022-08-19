@@ -1,9 +1,60 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --chechi-primary: #FF7100;
+    --chechi-primary-dark: #da680a;
+    --chechi-info: #230C33;
+    --chechi-footer: #e8e8e8;
+    --chechi-gray-dark: #1a1a1a;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+    --xl: 24px;
+}
 body {
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Work Sans', sans-serif;
+}
+#navbar {
+    background-color: rgba(215, 215, 215, 0.302);
+}
+#navbar ul li a {
+    color: var(--black);
+}
+#main .carousel-inner img {
+    max-height: 100vh;
+    object-fit: cover;
+}
+#carousel {
+    position: relative;
+}
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: var(--white);
+    z-index: 1;
+}
+#carousel .text-gallery {
+    text-align: justify;
+    border-bottom: 4px solid var(--chechi-primary);
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#about-us {
+    background-color: var(--chechi-gray-dark);
+}
+#about-us p {
+    text-align: justify;
 }
 #footer {
-    background-color: #e8e8e8;
+    background-color: var(--chechi-footer);
 }
 .logo-navbar {
     width: 75px;
@@ -12,16 +63,29 @@ body {
     width: 70px;
 }
 .logo-footercel {
+    width: 70px;
+}
+.icon-social {
     width: 45px;
 }
-.incon-instagram {
-    width: 45px;
+.phone-icon {
+    width: 25px;
 }
-.navbar {
-    background-color: rgba(215, 215, 215, 0.302);
+.see-gallery {
+    text-decoration: none;
+    font-size: var(--lg);
+    font-weight: 500;
+    color: var(--white);
+    background-color: var(--chechi-primary);
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
 }
-.texto-justificado {
-    text-align: justify;
+.see-gallery:hover {
+    color: var(--chechi-primary);
+    background-color: var(--white);
+}
+.front {
+    z-index: 1;
 }
 .img-tools {
     max-height: 400px;
