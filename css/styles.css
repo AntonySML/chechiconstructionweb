@@ -3,7 +3,7 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 #footer {
-    background-color: #f5f5f5;
+    background-color: #e8e8e8;
 }
 .logo-navbar {
     width: 75px;
@@ -16,4 +16,14 @@ body {
 }
 .incon-instagram {
     width: 45px;
+}
+.navbar {
+    background-color: rgba(215, 215, 215, 0.302);
+}
+.texto-justificado {
+    text-align: justify;
+}
+.img-tools {
+    max-height: 400px;
+    width: 100%;
 }
