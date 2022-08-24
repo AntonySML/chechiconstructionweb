@@ -10,6 +10,7 @@
     --chechi-info: #230C33;
     --chechi-footer: #e8e8e8;
     --chechi-gray-dark: #1a1a1a;
+    --xs: 10px;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -29,22 +30,6 @@ body {
 /* Navbar */
 
 /* Carousel */
-.see-gallery {
-    text-decoration: none;
-    font-size: var(--lg);
-    font-weight: 500;
-    color: var(--white);
-    background-color: var(--chechi-primary);
-    padding: 5px 20px 5px 20px;
-    border-radius: 8px;
-}
-.see-gallery:hover {
-    color: var(--chechi-primary);
-    background-color: var(--white);
-}
-.front {
-    z-index: 1;
-}
 #main .carousel-inner img {
     max-height: 100vh;
     object-fit: cover;
@@ -65,8 +50,17 @@ body {
 #carousel .text-gallery {
     text-align: justify;
     border-bottom: 4px solid var(--chechi-primary);
+    border-left: 4px solid var(--chechi-primary);
+    border-right: 4px solid var(--chechi-primary);
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.2);
+}
+#carousel .text-gallery-title {
+    border-left: 4px solid var(--chechi-primary);
+    padding: 2px 2px 2px 15px;
+    color: var(--chechi-primary);
+    font-family: 'Holtwood One SC', serif;
+    font-size: 40px;
 }
 /* Carousel */
 
@@ -180,3 +174,55 @@ body {
     width: 25px;
 }
 /* Footer */
+.see-gallery {
+    text-decoration: none;
+    font-size: var(--lg);
+    font-weight: 500;
+    color: var(--white);
+    background-color: var(--chechi-primary);
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+}
+.see-gallery:hover {
+    color: var(--chechi-primary);
+    background-color: var(--white);
+    border: 1px solid var(--chechi-primary);
+}
+.front {
+    z-index: 1;
+}
+.img-tools {
+    max-height: 400px;
+    width: 100%;
+}
+.chechi-button {
+    background-color: var(--chechi-primary);
+    color: var(--white);
+}
+.chechi-button:hover {
+    background-color: var(--white);
+    color: var(--chechi-primary);
+    border: 1px solid var(--chechi-primary);
+}
+.contat-you {
+    font-size: var(--sm);
+    margin-top: 10px;
+}
+.contact-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-justified {
+    text-align: justify;
+}
+.gallery-front {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.img-modal-gallery {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
