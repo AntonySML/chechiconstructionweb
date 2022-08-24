@@ -14,22 +14,25 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav id="navbar"  class="navbar navbar-expand-lg fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
         <div class="container pt-1 pb-1">
             <img src="./assets/logos/chechi1.png" class="logo-navbar" alt="chechi logo">
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarcontent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto fs-5 ps-3">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#main">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="#about-us">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Work Methodology</a>
+                        <a class="nav-link" href="#work-methodology">Work Methodology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#frecuents-questions">Frecuents Questions</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact us</a>
@@ -86,17 +89,26 @@
     <!-- /Gallery -->
 
     <!-- About us -->
-    <section id="about-us">
-        <div class="container justify-content-center">
-            <div class="row align-self-center text-white">
+    <div id="about-us" class="align-items-center">
+        <div class="container-about pt-5 mt-5 mb-5 pb-3">
+            <div class="row pt-5 align-items-center">
                 <div class="col-12 col-lg-6 d-none d-lg-block">
-                    <img class="img-fluid img-tools" src="./assets/images/herramientas2.jpg" alt="tools">
+                    <img class="img-tools" src="./assets/images/herramientas2.jpg" alt="tools">
                 </div>
-                <div class="col-12 col-lg-6 text-center text-lg-start align-self-center">
-                    <h2>Chechi Construction LLC.</h2>
-                    <p>We are a construction company specialized in the area of ​​remodeling floors and bathrooms, 
-                    focused on meeting the needs of our clients' projects, and supported by the experience of our work team.</p>
-                    <p>We make your projects a reality through our experience, proactivity and creativity, providing you with 
+                <div class="card-about text-about d-none d-lg-block col-12 col-lg-6 text-center text-white">
+                    <h2 class="title-about">Chechi Construction LLC.</h2>
+                    <p class="info-about p-3 mt-3">We are a construction company specialized in the area of remodeling floors and bathrooms, 
+                    focused on meeting the needs of our clients' projects, and supported by the experience of our work team. 
+                    <br></br>
+                    We make your projects a reality through our experience, proactivity and creativity, providing you with 
+                    fast and efficient results.</p>
+                </div>
+                <div class="col d-lg-none col-12 col-lg-6 text-center text-white mt-4 pb-5 mb-5">
+                    <h2 class="title-about mb-4 fs-2 fw-bold">Chechi Construction LLC.</h2>
+                    <p class="info-about p-3 mt-3">We are a construction company specialized in the area of remodeling floors and bathrooms, 
+                    focused on meeting the needs of our clients' projects, and supported by the experience of our work team. 
+                    <br></br>
+                    We make your projects a reality through our experience, proactivity and creativity, providing you with 
                     fast and efficient results.</p>
                 </div>
             </div>
@@ -104,15 +116,74 @@
     </div>
     <!-- /About us -->
 
+    <!-- Work Metholodogy -->
+    <div id="work-methodology">
+        <div class="container pt-5 pb-5">
+            <div class="título pt-5 mt-4 text-center text-lg-start">
+                <h1 class="fs-1 fw-bold">Work Methodology</h1>
+            </div>
+            <div class="container-cards text-center">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 pb-5">
+                    <div class="col mb-3">
+                        <div class="card pb-2 shadow">
+                            <div class="card-incon">
+                                <img src="./assets/icons/1-circle.svg" class="circle-number" alt="">
+                            </div>
+                            <img src="./assets/icons/envelope.svg" class="card-img align-self-center" alt="...">
+                            <div class="card-body pt-4 pb-2">
+                                <h5 class="card-title fw-bold">Contact</h5>
+                            </div>
+                            <p class="ps-5 pe-5">Contact us to coordinate an appointment.</p>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="card pb-2 shadow">
+                            <div class="card-incon">
+                                <img src="./assets/icons/2-circle.svg" class="circle-number" alt="">
+                            </div>
+                            <img src="./assets/icons/calendar-check.svg" class="card-img align-self-center" alt="...">
+                            <div class="card-body pt-4 pb-2">
+                                <h5 class="card-title fw-bold">Date</h5>
+                            </div>
+                            <p class="ps-5 pe-5">Tell us about your project and let's see how we make it a reality.</p>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="card pb-2 shadow">
+                            <div class="card-incon">
+                                <img src="./assets/icons/3-circle.svg" class="circle-number" alt="">
+                            </div>
+                            <img src="./assets/icons/card-list.svg" class="card-img align-self-center" alt="...">
+                            <div class="card-body pt-4 pb-2">
+                                <h5 class="card-title fw-bold">Budget</h5>
+                            </div>
+                            <p class="ps-5 pe-5">We will look for the best materials, prices for your projects.</p>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="card pb-2 shadow">
+                            <div class="card-incon">
+                                <img src="./assets/icons/4-circle.svg" class="circle-number" alt="">
+                            </div>
+                            <img src="./assets/icons/house-door.svg" class="card-img align-self-center" alt="...">
+                            <div class="card-body pt-4 pb-2">
+                                <h5 class="card-title fw-bold">Construction site</h5>
+                            </div>
+                            <p class="ps-5 pe-5">After authorizing us we will start the remodeling of your home.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Work Metholodogy -->
+
     <!-- Footer -->
     <footer id="footer">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <div class="row text-start pt-3">
-                        <div class="col-12 col-md-4">
-                            <a class="nav-link" href="#">Frequent questions</a>
-                        </div>
                         <div class="col-10 col-md-4">
                             <a class="nav-link" href="#">Terms and Conditions</a>
                         </div>
@@ -134,7 +205,7 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <p>© 2022 Chechi Construction LLC - Todos los derechos reservados</p>
+                                <p>© 2022 Chechi Construction LLC - All rights reserved</p>
                             </div>
                         </div>
                     </div>
@@ -160,7 +231,7 @@
                 </div>
                 <div class="col mt-2 text-center">
                     <p>© 2022 Chechi Construction LLC</p>
-                    <p>Todos los derechos reservados</p>
+                    <p>All rights reserved</p>
                 </div>
             </div>
         </div>
