@@ -15,6 +15,7 @@
     --md: 16px;
     --lg: 18px;
     --xl: 24px;
+
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -90,6 +91,12 @@ body {
 #about-us p {
     text-align: justify;
 }
+.img-tools {
+    transition: all 0.5 ease;
+}
+.img-tools:hover {
+    transform: scale(0.9);
+}
 /* About us */
 
 /* work-methodology */
@@ -99,11 +106,20 @@ body {
     gap: 20px;
     max-height: 100%;
 }
-.card {
+.card-methodology {
     height: 100%;
     text-align: justify;
     text-align: center;
+    color: var(--black);
+    background-color: var(--white);
     border: 1px solid var(--chechi-primary-dark);
+}
+.card-efect {
+    transition: all 0.2 ease;
+}
+.card-efect:hover {
+    transform: scale(0.95);
+    background-color: var(--text-input-field);
 }
 .container-cards .img-card {
     height: 70px;
@@ -156,16 +172,15 @@ body {
 
 /* Terms and Conditions, Privacy Policy */
 #terms-and-condition {
-    padding: 50px;
-    background-color: var(--chechi-gray-dark);
+    padding-top: 3%;
+    padding-bottom: 50px;
 }
 .container-terms {
-    padding: 50px;
-    border: 1px solid var(--text-input-field);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
     background-color: var(--white);
-}
-.terms-colum {
-    padding-top: 20px;
 }
 .terms-colum p {
     text-align: justify;
@@ -262,4 +277,10 @@ body {
     width: 100%;
     height: 400px;
     object-fit: cover;
+}
+.card {
+    height: 100%;
+    text-align: justify;
+    text-align: center;
+    border: 1px solid var(--chechi-primary-dark);
 }
