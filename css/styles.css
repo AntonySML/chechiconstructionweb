@@ -154,7 +154,7 @@ body {
 }
 /* Frequent questions */
 
-/* Terms and Conditions */
+/* Terms and Conditions, Privacy Policy */
 #terms-and-condition {
     padding: 50px;
     background-color: var(--chechi-gray-dark);
@@ -178,6 +178,10 @@ body {
     padding-top: 25px;
     padding-bottom: 10px;
 }
+.terms-colum h5 {
+    font-weight: bold;
+    padding-left: 25px;
+}
 .terms-colum h6 {
     font-weight: bold;
     padding-left: 25px;
@@ -185,7 +189,7 @@ body {
 .title-inf-temrs {
     font-family: 'Holtwood One SC', serif;
 }
-/* Terms and Conditions */
+/* Terms and Conditions, Privacy Policy*/
 
 /* Footer */
 #footer {
