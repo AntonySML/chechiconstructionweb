@@ -136,7 +136,7 @@ body {
     margin-top: 50px;
     text-decoration: none;
     color: var(--white);
-    font-size: var(--lg);
+    font-size: var(--xl);
     padding-left: 10px;
     border-left: 2px solid var(--chechi-primary-dark);
 }
@@ -153,6 +153,39 @@ body {
     background-color: var(--dark);
 }
 /* Frequent questions */
+
+/* Terms and Conditions */
+#terms-and-condition {
+    padding: 50px;
+    background-color: var(--chechi-gray-dark);
+}
+.container-terms {
+    padding: 50px;
+    border: 1px solid var(--text-input-field);
+    background-color: var(--white);
+}
+.terms-colum {
+    padding-top: 20px;
+}
+.terms-colum p {
+    text-align: justify;
+}
+.terms-colum h1 {
+    font-weight: bold;
+}
+.terms-colum h4 {
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.terms-colum h6 {
+    font-weight: bold;
+    padding-left: 25px;
+}
+.title-inf-temrs {
+    font-family: 'Holtwood One SC', serif;
+}
+/* Terms and Conditions */
 
 /* Footer */
 #footer {
