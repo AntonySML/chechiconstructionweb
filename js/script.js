@@ -120,14 +120,14 @@ function showgallery(curarra){
     document.getElementById("card").innerText = "";
     for(var i=0;i<curarra.length;i++){
         document.getElementById("card").innerHTML += `
-            <div class="col-12 col-md-4 col-lg-3 mb-4">
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
                 <div class="card">
                     <img class="card-img-top gallery-front" src="${curarra[i].img}" alt="">
-                    <div class="card-body">
+                    <div class="card-body card-base">
                         <div class="badges text-end">
                             ${curarra[i].badges}
                         </div>
-                        <h5 class="card-title">${curarra[i].title}</h5>
+                        <h5 class="card-title pt-3 pb-3 fw-bold">${curarra[i].title}</h5>
                         <p class="card-text text-justified">${curarra[i].desc}</p>
                         <a href="#" class="btn chechi-button" data-bs-toggle="modal" data-bs-target="${curarra[i].modal}">See more</a>
                     </div>
