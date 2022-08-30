@@ -67,7 +67,7 @@ body {
 
 /* About us */
 #about-us {
-    height: 100%;
+    min-height: 100vh;
     padding: 35px;
     gap: 20px;
     background-color: var(--chechi-gray-dark);
@@ -87,19 +87,20 @@ body {
     height: 100%;
     width: 100%;
     justify-items: center;
+    object-fit: cover;
 }
 #about-us p {
     text-align: justify;
 }
-.img-tools {
-    transition: all 0.5 ease;
-}
-.img-tools:hover {
-    transform: scale(0.9);
-}
 /* About us */
 
 /* work-methodology */
+#work-methodology {
+    min-height: 100vh;
+}
+#work-methodology h1 {
+    padding-top: 130px;
+}
 .container-cards {
     align-self: center;
     margin-top: 50px;
@@ -127,9 +128,9 @@ body {
 }
 .circle-number {
     width: 25px;
-    margin-top: 25px;
+    margin-top: 32px;
 }
-.card-incon {
+.card-icon {
     max-width: 90px;
 }
 .card-img {
@@ -140,9 +141,12 @@ body {
 
 /* Frequent questions */
 #frecuents-questions {
-    height:100%;
-    padding-top: 40px;
+    width: 100%;
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
     background-color: var(--chechi-gray-dark);
+    color: white;
 }
 #frecuents-questions h1 {
     font-weight: bold;
@@ -161,7 +165,7 @@ body {
     color: var(--chechi-primary-dark);
 }
 .card-questions {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     text-align: center;
     padding: 10px;
     color: var(--text-input-field);
@@ -171,22 +175,15 @@ body {
 /* Frequent questions */
 
 /* Terms and Conditions, Privacy Policy */
-#terms-and-condition {
-    padding-top: 3%;
-    padding-bottom: 50px;
-}
 .container-terms {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 3%;
+    padding-bottom: 5%;
     padding-left: 8%;
     padding-right: 8%;
     background-color: var(--white);
 }
 .terms-colum p {
     text-align: justify;
-}
-.terms-colum h1 {
-    font-weight: bold;
 }
 .terms-colum h4 {
     font-weight: bold;
@@ -200,9 +197,6 @@ body {
 .terms-colum h6 {
     font-weight: bold;
     padding-left: 25px;
-}
-.title-inf-temrs {
-    font-family: 'Holtwood One SC', serif;
 }
 /* Terms and Conditions, Privacy Policy*/
 
@@ -284,3 +278,14 @@ body {
     text-align: center;
     border: 1px solid var(--chechi-primary-dark);
 }
+/* GENERAL */
+.title-chechi {
+    font-family: 'Holtwood One SC', serif;
+}
+.card-base {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content:space-between;
+}
+/* GENERAL */
