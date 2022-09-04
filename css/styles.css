@@ -22,11 +22,14 @@ body {
 }
 
 /* Navbar */
-#navbar {
+.navbar {
     background-color: rgba(215, 215, 215, 0.900);
 }
-#navbar ul li a {
+.nav-link {
     color: var(--black);
+}
+.nav-link:hover {
+    color: var(--chechi-primary-dark);
 }
 /* Navbar */
 
